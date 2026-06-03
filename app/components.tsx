@@ -12,7 +12,13 @@ export function HomeButton() {
 export function StoreBadges() {
   return (
     <div className="store-badges" aria-label="Download options">
-      <a className="store-badge" href="#" aria-label="Download on the App Store">
+      <a
+        className="store-badge"
+        href="https://apps.apple.com/ph/app/hotspot-havoc/id6766814349"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Download on the App Store"
+      >
         <span className="store-symbol"></span>
         <span>
           <small>Download on the</small>
